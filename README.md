@@ -3,13 +3,17 @@
 This is a Travel Listings Application built using React.js, Redux, Tailwind CSS, and Express.js (backend). The project allows users to browse, search, and create travel listings. It includes user authentication, a search feature, and a dashboard to view and manage listings.
 
 Features
-User Authentication: Secure user login and sign-up functionality.
-Search Functionality: Users can search for travel listings using the search bar.
-Create Listings: Authenticated users can create new travel listings.
-Responsive Design: The UI is built with Tailwind CSS and is fully responsive for mobile, tablet, and desktop views.
-User Dashboard: Users can view their own listings in a dashboard, allowing them to manage and edit them.
-Profile: Display user's profile details including an avatar image.
+
+ User Authentication: Secure user login and sign-up functionality.
+ Search Functionality: Users can search for travel listings using the search bar.
+ Create Listings: Authenticated users can create new travel listings.
+ Responsive Design: The UI is built with Tailwind CSS and is fully responsive for mobile, tablet, and desktop views.
+ User Dashboard: Users can view their own listings in a dashboard, allowing them to manage and edit them.
+ Profile: Display user's profile details including an avatar image.
+
+ 
 Technologies Used
+
 Frontend:
 React.js
 Redux (for state management)
@@ -79,7 +83,9 @@ Create Listings: After logging in, users can create new travel listings via the 
 Profile: Click on the avatar in the header to view profile information.
 Folder Structure
 bash
-Copy code
+
+
+
 .
 ├── client               # Frontend code
 │   ├── src
