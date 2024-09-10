@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const listingSchema = new mongoose.Schema(
   {
@@ -20,7 +20,7 @@ const listingSchema = new mongoose.Schema(
     },
     discountPrice: {
       type: Number,
-      required: true,
+      // required: true,
     },
     bathrooms: {
       type: Number,
@@ -40,11 +40,11 @@ const listingSchema = new mongoose.Schema(
     },
     type: {
       type: String,
-      required: true,
+      // required: true,
     },
     offer: {
       type: Boolean,
-      required: true,
+      // required: true,
     },
     imageUrls: {
       type: Array,
@@ -54,10 +54,18 @@ const listingSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    startDate: {
+      type: Date,
+      required: true,
+    },
+    endDate: {
+      type: Date,
+      required: true,
+    },
   },
   { timestamps: true }
 );
 
-const Listing = mongoose.model('Listing', listingSchema);
+const Listing = mongoose.model("Listing", listingSchema);
 
 export default Listing;
