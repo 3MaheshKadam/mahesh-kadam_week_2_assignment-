@@ -35,7 +35,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/3Maheshkadam/mahesh-kadam_week_2_assignent-.git
 Install dependencies for the client:
 
 bash
@@ -87,20 +87,8 @@ bash
 
 
 .
-├── client               # Frontend code
-│   ├── src
-│   │   ├── components   # Reusable UI components
-│   │   ├── pages        # Application pages
-│   │   ├── store        # Redux store and slices
-│   │   └── App.js       # Main entry file
-│   └── public           # Static files
-│
-├── api                  # Backend code (Express.js)
-│   ├── models           # Mongoose models
-│   ├── routes           # API routes
-│   ├── controllers      # Logic for route handling
-│   └── server.js        # Main server entry
-└── README.md            # Project documentation
+![image](https://github.com/user-attachments/assets/f8a69dc2-79bf-4b51-bdf7-99e46f81e495)
+
 
 
 Screenshots
